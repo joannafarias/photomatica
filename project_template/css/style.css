@@ -1,0 +1,78 @@
+body{
+  font-family: "Alice", serif;
+  font-weight: 400;
+  font-style: normal;
+}
+#one{
+  display: flex;
+  flex-direction: row;
+  }
+  #one img{
+    width: 50%;
+  }
+  
+  #one p{
+    width: 25%;
+  }
+  
+  header h1 {
+    font-size: 3rem;
+    color: #fff;
+    text-shadow: 2px 2px #1a1a1a;
+  }
+
+  nav{
+    background-color: black;
+    height: 90px;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    align-items: center;
+    position: fixed;
+    bottom: 0px;
+    width: 100%;
+  }
+
+  #photomatica{
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+  }
+  
+  #photobooths{
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    gap: 10px;
+  }
+  
+  /* Footer Styling */
+  footer {
+    background-color: #1a1a1a; /* Black background */
+    padding: 20px;
+    text-align: center;
+    color: #fff;
+    border-top: black
+  }
+  
+  footer a {
+    text-decoration: none;
+    color: #fff;
+    margin: 0 10px;
+  }
+  
+  footer a:hover {
+    color: black;
+  }
+  
+  /* Instagram Icon */
+  footer .instagram-logo {
+    width: 30px;
+    height: 30px;
+    filter: invert(100%);
+    transition: 0.3s ease;
+  }
+  
+  footer .instagram-logo:hover {
+    filter: invert(40%) sepia(80%) saturate(300%) hue-rotate(340deg) brightness(90%) contrast(90%);
+  }
+  
